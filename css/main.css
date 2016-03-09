@@ -20,71 +20,61 @@
 	margin:0;
 	padding: 0;
 }
-header{
-	background: #34495E;
-	width:100%;
-	padding: 1%;
-	
-}
-.navbar-nav>li>a:hover {
-	background: #2C3E50;
-}
-.navbar-nav>li>a{
-	color:white;
-}
-.title{
-  color: #ffffff;
-  margin-top: 100px;
-  padding-bottom:7px;
-}
-.theme{
-	margin-top:5px;
+/*nav*/
+.navbar {
+	border-radius:0px;
+	margin-bottom: 0px;
+
 }
 .navbar-default {
-    background-color: #34495E;
-    border: none;
+	background-color: #34495E;
+	border: none;
+	border-radius: 0px;
+    padding: 1.5%;
 }
-.navbar-default .navbar-brand {
-    color: #f5f5f5;
-}
-.navbar-default .navbar-toggle {
-}
-.navbar-default .navbar-toggle .icon-bar {
-    border:none;
-}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color:#2C3E50;
-}
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: white;
-    background-color:#2C3E50;
-}
- .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color:white;
-    background-color:#2C3E50;
-    }  
 .navbar-default .navbar-nav>li>a {
-    color: white;
-    }
-    
-.fondo-principal{
-	background-image: url("../images/slider/bg1.jpg");
-	background-repeat: none;
-	background-position:65%;
-	background-size:cover;
-	width:100%;
-	height:657px;
-	position: relative;
+	color: #fff;
+	margin-left: 5px;
 }
-.top{
-	margin-top: 5px;
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #2C3E50;
+	color: #fff;
+	border-radius: 5px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
 }
-.logotype{
-	margin:0;
+.navbar-default .navbar-nav>li>a:focus {
+	background-color: #2C3E50;
+	color: #fff;
+	border-radius: 5px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
 }
-.pallentesque{
-	font-size: 13px;
-}
+/*banner slider*/
+.carousel-caption {
+ 	left: 8%;
+ 	bottom: 40%
+   }
+   .carousel-caption h1,
+   .carousel-caption .lead {
+     margin: 0;
+     line-height: 1.25;
+     color: #fff;
+     text-shadow: 0 1px 1px rgba(0,0,0,.4);
+     text-align: left;
+   }
+   .carousel-caption .lead {
+   	font-size: 15px;
+   }
+   .carousel-caption .btn {
+     margin-top: 10px;
+     background: #31213d;
+     border-radius: 1px;
+   }
+
+/*banner verde*/
 .banner-bottom{
   background-color: #2ECC71;
   height: 250px;
