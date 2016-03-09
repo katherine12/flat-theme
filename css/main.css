@@ -74,89 +74,7 @@
      border-radius: 1px;
    }
 
-/*banner verde*/
-.banner-bottom{
-  background-color: #2ECC71;
-  color: #ffffff;
-  padding: 3%;
-}
-.circle{
-  background-color: #1C7A44;
-  font-size:30px;
-  padding:7px 5px 5px 15px;
-  border-radius:50px;
-  width: 55px;
-  float: left;
-  position:relative;
-  top:22px;
-  right: 12px;
-}
-.banner-bottom .media {
-	margin: 0px;
-}
-.social{
-  padding-left: 6px;
-}
-.cage p{
-	font-size: 16px;
-}
-.project{
-	background: #F5F5F5;
-	position: relative;
-}
-.latest-projet {
-	margin-bottom: 5%;
-}
-.nova{
-	width: 100%;
-}
-.cajas{
-	background: white;
-	padding:10px;
-	text-align: center;
 
-
-}
-.cajas h4{
-  color:grey;
- padding-top: 3%;
- font-size: 1em;
-}
-.fotos{
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
-.clients{
-	background: #E74C3C;
-	padding: 5%;
-}
-.boton{
-	background: yellow;
-}
-.cajas a{
-	text-decoration: none;
-	color:grey;
-}
-
-/*clients*/
-.clients{
-	color:white;
-}
-.titulos{
-	margin-top: 30px;
-}
-.titulos h4{
-	margin-left: 20px;
-	font-size: 16px;
-}
-.titulos p{
-	font-size: small;
-	margin-left: 20px;
-}
-.listas{
-	border-left:5px solid white;
-	border-left-height:150px;
-}
 /*footer*/
 footer{
 	background: #34495E;
@@ -165,7 +83,7 @@ footer{
 .foot div {
 	color:#6F7E8B;
 }
-.foot h3{
+.foot h3 {
 	color:white;
 }
 .foot a{
@@ -176,12 +94,8 @@ footer{
 	background:#D8524E;
 	color:white;
 }
-.mayor{
+.icon-angle-right{
 	padding-right: 2%;
-}
-.thumb{
-	float:left;
-	padding-right: 4%;
 }
 /*footer2*/
 .foot-2{
@@ -192,17 +106,11 @@ footer{
 .foot-2 a{
 	color:white;
 }
-
-.list-nav{
-	text-decoration:none;
-	list-style:none;
-}
 .list-nav li{
 	display: inline-block;
 	padding-right:2%;
 	padding-left: 3%;
 }
 .navfot{
- padding-left: 130px;
+ padding-left: 10%;
 }
-
