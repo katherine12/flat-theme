@@ -77,11 +77,8 @@
 /*banner verde*/
 .banner-bottom{
   background-color: #2ECC71;
-  height: 250px;
   color: #ffffff;
-}
-.fila{
-	margin-top: 3%;
+  padding: 3%;
 }
 .circle{
   background-color: #1C7A44;
@@ -90,10 +87,12 @@
   border-radius:50px;
   width: 55px;
   float: left;
-  margin-bottom: 80px;
   position:relative;
   top:22px;
-  right: 18px;
+  right: 12px;
+}
+.banner-bottom .media {
+	margin: 0px;
 }
 .social{
   padding-left: 6px;
@@ -105,26 +104,23 @@
 	background: #F5F5F5;
 	position: relative;
 }
+.latest-projet {
+	margin-bottom: 5%;
+}
 .nova{
-	height: 200px;
-	width:200px;
+	width: 100%;
 }
 .cajas{
-	border:1px solid grey;
-	margin:auto;
-	position: relative;
 	background: white;
-	width:240px;
-	height: 280px;
 	padding:10px;
 	text-align: center;
-    float:right;
-    margin-right: 35px;
+
 
 }
 .cajas h4{
   color:grey;
  padding-top: 3%;
+ font-size: 1em;
 }
 .fotos{
 	padding-top: 5%;
