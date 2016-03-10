@@ -20,6 +20,13 @@
 	margin:0;
 	padding: 0;
 }
+@media screen and (min-width: 400px) and (max-width: 500px) {
+	.carousel-caption {
+    left: 8%;
+    bottom: 40%;
+    top: -12%;
+}
+}
 /*----home*/
 
 /*banner verde*/
@@ -62,9 +69,13 @@
 	background: white;
 	padding:10px;
 	text-align: center;
-
-
 }
+.caption h4 {
+	max-width: 64px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
 .cajas h4{
   color:grey;
  padding-top: 3%;
