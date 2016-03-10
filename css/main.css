@@ -113,7 +113,6 @@ footer{
 }
 .navfot{
  padding-left: 10%;
-<<<<<<< HEAD
 }
 /*PORTAFOLIO*/
 .portafolio{
@@ -159,7 +158,6 @@ footer{
 .breadcrumb > .active {
 color: #D8D8D8
 }
-
 /*SERVICES*/
 .fondo{background-color: #F5F5F5}
 .icon-rs {
@@ -227,5 +225,26 @@ ul.pagination > li.active > a, ul.pagination > li:hover > a {
   background-color: #34495e;
   color: #fff;
 }
+.mt-4{
+	margin-top: 4%;
+}
+.arrow >  li a{
+	color: black;}
+.fondo{
+	padding:3%;
+}
+.fondo form{
+	padding-bottom: 4%;
+}
+.ad{
+}
+.arrow li{
+	list-style: none;
+	padding-bottom: 6%;
+}
+.tags{
+	padding: 4%;
+}
 
-.arrow >  li a{color: black;}
+	
+
