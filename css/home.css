@@ -26,6 +26,12 @@
     bottom: 40%;
     top: -12%;
 }
+.caption h4 {
+	max-width: 64px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
 }
 /*----home*/
 
@@ -70,12 +76,7 @@
 	padding:10px;
 	text-align: center;
 }
-.caption h4 {
-	max-width: 64px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-} 
+
 .cajas h4{
   color:grey;
  padding-top: 3%;
