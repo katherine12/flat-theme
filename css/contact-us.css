@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+
+/* -- After-nav --*/
+.after-nav {
+	background-color: #2ECC71;
+	padding: 2% 0 4%;
+    color: white;
+}
+.box-left {
+	float: left;
+}
+.box-right {
+	float: right;
+	margin-top: 3%;
+}
+.box-right a{
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+}
+.box-right a:hover{
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+}
+/* Contact-Us */
+.contact{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.form-contact input, .form-contact button {
+    display: block;
+    margin-bottom: 10px;
+}
+.submit {
+    background: #428BCA;
+    padding: 10px 15px;
+    color: white;
+    border:1px solid #428BCA;
+}
+.box-message {
+    padding-top: 10.5%;
+}
+.box-maps iframe {
+    width: 100%;
+}
+
+/*-------------------- RESPONSIVE --------------- */
+
+@media screen and (max-width : 920px) {
+    .after-nav {
+      background-color: #2ECC71;
+      padding: 14% 0 5%;
+      color: white;
+
+
+}
+@media screen and (max-width: 600px) {
+    .after-nav {
+      background-color: #2ECC71;
+      padding: 21% 0 7%;
+      color: white;
+
+
+}
+@media screen and (min-width:299px) and (max-width: 599px) {
+    .after-nav {
+      background-color: #2ECC71;
+      padding: 21% 0 7%;
+      color: white;
+    }
+
+
+}

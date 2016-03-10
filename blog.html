@@ -10,6 +10,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -21,7 +22,231 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head><!--/head-->
   <body>
-    <!-- Inserte código aqui -->
+       <header>
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+    <section class="after-nav">
+      <div class="container">
+        <div class="box-left">
+          <h1>Blog</h1>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+        </div>
+        <div class="box-right">
+          <nav>
+            <a href="#">Home</a> /
+            <a href="#">Blog</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 bg-blog">
+            <div class="img"></div>
+            <div class="box-text">
+              <h2 class="mb-10">Duis sed odio sit amet nibh vulputate cursus</h2>
+              <span><i class="icon-user"></i> Jhon</span>
+              <span><i class="icon-folder-close"></i> Bootstrap</span>
+              <span><i class="icon-calendar"></i> Set 16th, 2012</span>
+              <span><i class="icon-comment"></i> 3 comments</span>
+              <br>
+              <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam vitae iusto neque assumenda nam, maiores quas! Veritatis tempore, illo, alias ea architecto omnis, molestiae, eos velit aspernatur odio vero? Perspiciatis.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga veritatis, rerum vel accusantium adipisci eligendi, ab esse, totam error aspernatur ad culpa iste! Blanditiis cumque sit, iure saepe odit expedita?</p>
+              <p><a class="btn btn-primary" href="#" role="button">Read more</a></p>
+            </div>
+            <br>
+            <div class="img img2"></div>
+            <div class="box-text">
+              <h2 class="mb-10">Duis sed odio sit amet nibh vulputate cursus</h2>
+              <span><i class="icon-user"></i> Jhon</span>
+              <span><i class="icon-folder-close"></i> Bootstrap</span>
+              <span><i class="icon-calendar"></i> Set 16th, 2012</span>
+              <span><i class="icon-comment"></i> 0 comments</span>
+              <br>
+              <p class="mt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam vitae iusto neque assumenda nam, maiores quas! Veritatis tempore, illo, alias ea architecto omnis, molestiae, eos velit aspernatur odio vero? Perspiciatis.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quibusdam iure illo nemo recusandae corrupti, placeat aut, dicta magni omnis provident delectus, vero nulla labore ea perspiciatis at odio ipsa?</p>
+              <p><a class="btn btn-primary btn-lg" href="blog-item.html" role="button">Read more</a></p>
+            </div>
+            <nav class="indice">
+              <ul class="pagination">
+                <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">5 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-4">
+            <div class="box-form">
+              <form role="form">
+                <div class="input-group">
+                  <input type="text" class="form-control" autocomplete="off" placeholder="Search">
+                  <span class="input-group-btn">
+                    <button class="btn btn-danger" type="button"><i class="icon-search"></i></button>
+                  </span>
+                </div>
+              </form>
+            </div>
+            <div class="row box-4">
+              <div class="col-md-6">
+                <img src="images/ads/ad1.png">
+              </div>
+              <div class="col-md-6">
+                <img src="images/ads/ad2.png">
+              </div>
+            </div>
+            <div class="row box-4">
+              <div class="col-md-6">
+                <img src="images/ads/ad3.png">
+              </div>
+              <div class="col-md-6">
+                <img src="images/ads/ad4.png">
+              </div>
+            </div>
+            <div class="box-list row">
+              <h3 class="ml-14">Blog Categories</h3>
+              <ul class="col-md-6 mt-20">
+                <li ><span class="icon-angle-right"></span> <a href="">Development</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">Design</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">Updates</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">Tutorial</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">News</a></li>
+              </ul>
+              <ul class="col-md-6 mt-20">
+                <li><span class="icon-angle-right"></span> <a href="">Joomía</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">Wordpress</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">Drupal</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">Magento</a></li>
+                <li><span class="icon-angle-right"></span> <a href="">Bootstrap</a></li>
+              </ul>
+            </div>
+            <div class="box-tag mt-20">
+              <h3>Tag Cloud</h3>
+              <div class="box-lenguajes">
+                <a href=""><span class="label label-primary">CSS3</span></a>
+                <a href=""><span class="label label-primary">HTML5</span></a>
+                <a href=""><span class="label label-primary">WordPress</span></a>
+                <a href=""><span class="label label-primary">Joomía</span></a>
+                <a href=""><span class="label label-primary">Drupal</span></a>
+                <a href=""><span class="label label-primary">Bootstrap</span></a>
+              </div>
+              <a href=""><span class="label label-primary">jQuery</span></a>
+              <a href=""><span class="label label-primary">Tutorial</span></a>
+              <a href=""><span class="label label-primary">Update</span></a>
+            </div>
+              <h3 class="mt-40">Facebook Fanpage</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+<footer>
+<div class="container foot">
+  <div class="col-md-3">
+      <h3>About Us</h3>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Vestibulum tortor quam,feugiat vitae,ultricies eget ,tempor sit amet,ante.</p>
+      <p>Pellentesque habitant morbi tristique senectus</p>
+  </div>
+  <div class="col-md-3">
+   <h3>Company</h3>
+   <p><a href="#"><i class=" icon-angle-right"></i>Company Overview</a></p>
+   <p><a href="#"><i class=" icon-angle-right"></i>Meet The Team</a></p>
+   <p><a href="#"><i class=" icon-angle-right"></i>Our Awesome Partners</a></p>
+   <p><a href="#"><i class="icon-angle-right"></i>Our Services</a></p>
+   <p><a href="#"><i class=" icon-angle-right"></i>Frequently Asked Questi</a></p>
+   <p><a href="#"><i class=" icon-angle-right"></i>Contact Us</a></p>
+   <p><a href="#"><i class=" icon-angle-right"></i>Privacy Policy</a></p>
+   <p><a href="#"><i class=" icon-angle-right"></i>Terms of Use</a></p>
+   <p><a href="#"><i class=" icon-angle-right"></i>Copyright</a></p>
+  </div>
+ <div class="col-md-3 col-sm-6">
+          <h3>Latest Blog</h3>
+            <div class="media">
+             <div class="pull-left">
+              <img src="images/blog/thumb1.jpg">
+             </div>
+             <div class="media-body">
+              <p class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></p>
+              <small>Posted 17 Aug 2013</small>
+             </div>
+            </div>
+            <div class="media">
+             <div class="pull-left">
+              <img src="images/blog/thumb2.jpg">
+             </div>
+             <div class="media-body">
+              <p class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></p>
+              <small>Posted 13 Sep 2013</small>
+             </div>
+            </div>
+            <div class="media">
+             <div class="pull-left">
+              <img src="images/blog/thumb3.jpg">
+             </div>
+             <div class="media-body">
+              <p class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></p>
+              <small>Posted 11 Jul 2013</small>
+             </div>
+            </div>
+  </div>
+  <div class="col-md-3">
+    <h3>Address</h3>
+    <p>Twitter,Inc </p>
+    <p>795 Folsom Ave, Suite 600</p>
+    <p>San Francisco, CA 94107 </p>
+    <p> P: (123) 456-7890 </p>
+  </div>
+  <div class="col-md-3">
+    <h3>Newsletter</h3>
+    <div class="input-group">
+    <input type="text" class="form-control" placeholder="Enter your email">
+     <span class="input-group-btn">
+    <button class="go btn btn-default" type="button">Go!</button>
+     </span>
+    </div>
+  </div>
+</div>
+</footer>
+<div class="foot-2">
+ <div class="container">
+  <div class="col-md-8">
+   <p>© 2013 ShapeBootsrap. All Rights Reserved.</p>
+  </div>
+  <div class=" navfot col-md-4">
+    <ul class="list-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#"><i class="icon-angle-up"></i></a></li>
+    </ul>
+  </div>
+ </div>
+</div>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
